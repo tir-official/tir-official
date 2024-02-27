@@ -17,10 +17,26 @@
             background-color: #161b22;
             padding: 20px;
             text-align: center;
+            position: relative;
         }
 
         h1 {
             color: #C9D1D9;
+        }
+
+        .download-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            background-color: #28a745;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .download-button:hover {
+            background-color: #218838;
         }
 
         section {
@@ -55,20 +71,6 @@
             padding: 20px;
             text-align: center;
         }
-        .download-button {
-            margin-left: 1150px;
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #28a745;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 4px;
-            margin-top: 10px;
-        }
-
-        .download-button:hover {
-            background-color: #218838;
-        }
     </style>
 </head>
 <body>
@@ -76,7 +78,6 @@
     <header>
         <a href="tir_download.zip" class="download-button" download>Download TIR</a>
         <h1>📦 <strong>Tir - Only Up's Project Manager</strong></h1>
-
     </header>
 
     <section id="overview">
@@ -104,7 +105,6 @@
         <h2>Update the TIR</h2>
         <pre><code>tir update</code></pre>
     </section>
-
 
     <footer>
         <p>Embrace the simplicity and efficiency of <code>tir</code> as you embark on your project management journey with Only Up.</p>
