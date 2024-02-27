@@ -1,16 +1,33 @@
-### Hi there 👋
+# 📦 tir - Only Up's Project Manager
 
-<!--
-**tir-official/tir-official** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Explore our official site: [TIR](https://tir-official.github.io/tir-official/)
 
-Here are some ideas to get you started:
+## Overview
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+`tir` is a simple command-line project manager designed to assist in creating and managing projects. It provides basic commands for managing projects.
+
+You can use it in any directory by adding the `tir` folder to your system variables. It's preferable to add the `tir` folder to 'C:\Program Files (x86)' and then include it in your system variables.
+
+## Create a Project
+
+```bash
+tir new <project_name> # Creates main.py inside the project
+```
+
+## Delete a Project
+
+```bash
+tir clear <project_name> # Clears the project
+```
+
+## Run a Project
+
+```bash
+tir run # Runs the project
+```
+
+## Update the TIR
+
+```bash
+tir update
+```
